@@ -12,20 +12,20 @@ type FoodItem = {
 };
 
 export default function FoodTracker() {
-  const [opened, setOpened] = useState(false);
-  const [items, setItems] = useState<FoodItem[]>([]);
-  const categories = ["Main Course", "Drink", "Dessert"];
+  // const [opened, setOpened] = useState(false);
+  // const [items, setItems] = useState<FoodItem[]>([]);
+  // const categories = ["Main Course", "Drink", "Dessert"];
 
-  const openModal = () => {
-    setOpened(true);
-  }
+  // const openModal = () => {
+  //   setOpened(true);
+  // }
 
   return (
     <Container style={{ maxWidth: 600, margin: "auto", padding: 20 }}>
       <Title order={2} mb="md">
         Food Tracker
       </Title>
-      <Button variant="filled" onClick={openModal}>Add Food Item</Button>
+      <Button variant="filled">Add Food Item</Button>
       {/* Type additional AddFoodModal here. */}
 
       <Divider my="md" />
@@ -37,18 +37,18 @@ export default function FoodTracker() {
       {/* Type additional card here. */}
 
       <Stack w="100%">{/* Type additional food card list here. */}
-        {items.map((item) => (
+        {/* {items.map((item) => (
         <Card shadow="sm" padding="lg" radius="md" withBorder>
           <Group>
             <Text>
-              {item.name}
+              
             </Text>
             <Text>
-              {item.price} Baht x {item.quantity} =  Baht
+              
             </Text>
           </Group>
         </Card>
-        ))}
+        ))} */}
       </Stack>
     </Container>
   );
