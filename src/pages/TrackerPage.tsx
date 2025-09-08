@@ -1,15 +1,15 @@
-import { useState } from "react";
-import { Button, Stack, Title, Divider, Container,Card, Group,Text } from "@mantine/core";
-import { useDisclosure } from '@mantine/hooks'; 
-import { v4 as uuidv4 } from "uuid";
+// import { useState } from "react";
+import { Button, Stack, Title, Divider, Container } from "@mantine/core";
+// import { useDisclosure } from '@mantine/hooks'; 
+// import { v4 as uuidv4 } from "uuid";
 
-type FoodItem = {
-  id: string;
-  name: string;
-  price: number | string;
-  quantity: number | string;
-  category: string;
-};
+// type FoodItem = {
+//   id: string;
+//   name: string;
+//   price: number | string;
+//   quantity: number | string;
+//   category: string;
+// };
 
 export default function FoodTracker() {
   // const [opened, setOpened] = useState(false);
