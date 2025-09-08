@@ -25,13 +25,15 @@ export default function AddFoodModal({}: AddFoodModalProps) {
   const [quantity, setQuantity] = useState<number | string>(0);
   const [category, setCategory] = useState<string | null>(null);
 
-  const handleSubmit = () => {};
+  const handleSubmit = () => {
+
+  };
 
   // หากต้องการแปง type string เป็น type number สามารถดูตัวอย่างนี้ได้
   let val_number: number = Number("500.0");
   console.log(val_number + 100); // 600.0
 
   return {
-    /* Type additional text here. */
+
   };
 }
